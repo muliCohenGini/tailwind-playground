@@ -1,5 +1,6 @@
 import React from 'react';
 import { DynamicTextArea } from "./components/DynamicTextArea"; 
+import { Button } from "./components/Button"
 function App() {
   return (
     <div className="flex flex-col h-full items-center justify-center text-white bg-gradient-to-br from-gray-600 via-teal-700 to-gray-800">
@@ -41,6 +42,7 @@ function App() {
         </a>
       </div>
       <DynamicTextArea />
+      <Button />
     </div>
   );
 }
