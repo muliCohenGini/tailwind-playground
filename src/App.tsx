@@ -40,6 +40,9 @@ function App() {
           Learn Tailwind
         </a>
       </div>
+      <div className="mt-4 text-black">
+          <textarea name="" id=""></textarea>
+        </div>
     </div>
   );
 }
